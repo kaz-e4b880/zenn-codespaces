@@ -4,6 +4,11 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "textlint",
+      "type": "shell",
+      "command": "npx textlint ./articles/*.md"
+    },
+    {
       "label": "create article",
       "type": "shell",
       "command": "npx zenn new:article"
